@@ -1,0 +1,134 @@
+.mod-poe {
+    padding: 80px 0 60px;
+    text-align: center;
+    background: #f2f8fc;
+    background: #fff;
+}
+@media screen and (max-width: 1199px) {
+
+    .mod-poe {
+        padding: 1.24rem 0 .64rem;
+        text-align: left;
+        background: #fff;
+    }
+}
+.mod-poe .fixed-content h3 {
+    margin: 0 auto 40px;
+    max-width: 1080px;
+    font-size: 46px;
+    font-family: Quicksand;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.2;
+    margin-bottom: .4rem;
+}
+
+@media screen and (max-width: 1199px){
+    .mod-poe .fixed-content h3 {
+        margin-bottom: .64rem!important;
+    }
+}
+.mod-poe .fixed-content .dec {
+    font-size: 18px;
+    max-width: 1080px;
+    margin: 0 60px 30px;
+    color: #333;
+    line-height: 1.6;
+}
+@media screen and (max-width: 1199px){
+    .mod-poe .fixed-content .dec{
+    /* font-size: .32rem; */
+    width: 100%;
+    margin: 0 auto .3rem;
+    line-height: 1.4;
+    }
+} 
+ul.poe-list {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 32px;
+}
+ul.poe-list li {
+    display: inline-block;
+    list-style-type: none;
+}
+ul.poe-list li .desc {
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.mod-poe img {
+    border-width: 0;
+    max-width: 100%;
+    transition: opacity 1s;
+    opacity: 1;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    border-style: none;
+    margin-bottom: 10px;
+}
+/* hide text */
+.mod-hide {
+    background: #fff;
+}
+@media screen and (max-width: 1199px){
+    .mod-hide{
+        padding-top: 0;
+        background: #fff;
+    }
+}
+@media screen and (max-width: 1199px){
+    .hidd-two-parts {
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+.mod-hide .mod-image .hidd-text {
+    text-align: center;
+}
+@media screen and (max-width: 1199px){
+    .mod-hide .mod-image .hidd-text {
+        font-weight: 400;
+        font-size: .28rem;
+        margin-bottom: .2rem;
+        line-height: 1.4;
+    }
+}
+@media screen and (max-width: 1199px){
+.mod-hide .mod-image .hidd-text, .eight-poescroll .mod-hide .mod-image .hidd-two-parts {
+    text-align: center;
+}
+}
+@media screen and (max-width: 1199px){
+    .mod-hide .mod-image .hidd-two-parts .hidd-img {
+        height: auto;
+        width: 70%;
+    }
+}
+.mod-hide .mod-image .hidd-two-parts .hidd-img {
+    height: 208px;
+    width: 276px;
+}
+.mod-poe .btn-primary {
+    color: rgb(10, 10, 10);
+    background-color: #edeff1;
+    border: none;
+}
+.mod-poe .btn-primary:hover {
+    color: white;
+    background-color: #070707;
+    border: none;
+    border-color: cornsilk;
+}
+.mod-poe .btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: white;
+    background-color: #070707;
+    border: none;
+    border-color: cornsilk;
+    box-shadow: none;
+}
